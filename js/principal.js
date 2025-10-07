@@ -9,7 +9,6 @@ console.log(nome);
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
-
 console.log(peso);
 
 var tdAltura = document.querySelector(".info-altura");
