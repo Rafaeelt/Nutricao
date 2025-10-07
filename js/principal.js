@@ -1,4 +1,3 @@
-var titulo = document.querySelector;
 console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Aparecida Nutricionista");
