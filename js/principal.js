@@ -16,5 +16,7 @@ var tdAltura = document.querySelector(".info-altura");
 var altura = tdAltura.textContent;
 console.log(altura);
 
+var imc = peso / (altura * altura);
+console.log(imc);
 
 
