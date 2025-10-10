@@ -17,14 +17,15 @@ var altura = tdAltura.textContent;
 console.log(altura);
 
 var tdImc = paciente.querySelector(".info-imc")
+
 console.log(imc);
 
 var pesoEhValido = true;
 
 var pesoEhValida = true;
 
-if(peso < 0 || peso > 1000 {
-    console.log("Peso inválido");
+if(peso <=0 || peso >= 1000 {
+    console log("Peso inválido");
     pesoEhValido = false;
 }
 
