@@ -29,7 +29,8 @@ var pacientes = document.querySelectorAll(".paciente");
     if(altura <= 0 || altura >= 3.00 ){
         console.log("Altura inválida!");
         alturaEhValida = true;
-        tdImc.textContent = "Lightcoral";
+        tdImc.textContent = "Altura Inválida";
+        paciente.classList.add("paciente-invalido");
     }
 
 
@@ -38,7 +39,7 @@ var pacientes = document.querySelectorAll(".paciente");
         tdImc.textCotnent=imc.toFixed(2);
     }
     }
-    
+
     titulo.addEventListener("click", mostraMensagem);
 
     function mostraMensagem (){
