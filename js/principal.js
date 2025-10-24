@@ -37,3 +37,9 @@ var pacientes = document.querySelectorAll(".paciente");
         var imc=peso / (altura*altura) ;
         tdImc.textCotnent=imc;
     }
+
+    titulo.addEventListener("click", mostraMensagem);
+
+    function mostraMensagem (){
+        alert("Olá eu fui clicado!!!")
+    }
