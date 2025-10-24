@@ -35,8 +35,8 @@ var pacientes = document.querySelectorAll(".paciente");
 
 
     if (alturaEhValida && pesoEhValido){
-        var imc=peso / (altura*altura) ;
-        tdImc.textCotnent=imc.toFixed(2);
+        var imc = peso / (altura*altura) ;
+        tdImc.textContent=imc.toFixed(2);
     }
     }
 
