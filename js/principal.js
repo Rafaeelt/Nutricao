@@ -23,7 +23,7 @@ var pacientes = document.querySelectorAll(".paciente");
         console.log("Peso inválido");
         pesoEhValido = false;
         tdImc.textContent = "Peso inválido";
-        paciente.classList.add("paciente-invalido");
+       paciente.classList.add("paciente-invalido");
     }
 
     if(altura <= 0 || altura >= 3.00 ){
