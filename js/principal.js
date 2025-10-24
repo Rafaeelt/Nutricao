@@ -23,13 +23,13 @@ var pacientes = document.querySelectorAll(".paciente");
         console.log("Peso inválido");
         pesoEhValido = false;
         tdImc.textContent = "Peso inválido";
-        paciente.style. backgroundColor = "litghcoral";
+        paciente.style. backgroundColor = "Litghcoral";
     }
 
     if(altura <= 0 || altura >= 3.00 ){
         console.log("Altura inválida!");
         alturaEhValida = true;
-        tdImc.textContent = "Altura inválida";
+        tdImc.textContent = "Lightcoral";
     }
 
 
