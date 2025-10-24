@@ -37,14 +37,3 @@ var pacientes = document.querySelectorAll(".paciente");
         var imc=peso / (altura*altura) ;
         tdImc.textCotnent=imc;
     }
-
-
-
-
-
-
-
-
-
-
-
