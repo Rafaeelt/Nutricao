@@ -47,8 +47,15 @@ var pacientes = document.querySelectorAll(".paciente");
     }
 
     var botaoAdicionar = document.querySelector("#adicionar-paciente");
-        botaoAdicionar.addEventListener("click," function(event) {
+        botaoAdicionar.addEventListener("click" function(event) {
             event.preventDefault();
             alert("Oi eu sou o botão e fui clicado");
         }
     )
+
+    var form = document.querySelector("#form-adiciona");
+
+    var nome = form.nome.value;
+    var peso = form.peso.value;
+    var altura = form,altura.vaule;
+    var gordura = form.gordura.value;
