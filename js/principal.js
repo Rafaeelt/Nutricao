@@ -71,6 +71,10 @@ var pacientes = document.querySelectorAll(".paciente");
     alturaTd.textContent = altura;
     gorduraTd.textContent = gordura;
 
+    pacienteTr.appendChild(nomeTd);
+    pacienteTr.appendChild(pesoTd);
+    pacienteTr.appendChild(alturaTd);
+    pacienteTr.appendChild(gorduraTd);
     }
 }
 
