@@ -45,10 +45,13 @@ var pacientes = document.querySelectorAll(".paciente");
         alert("Olá eu fui clicado!!!")
     }
 
+
+
+
     var botaoAdicionar = document.querySelector("#adicionar-paciente");
         botaoAdicionar.addEventListener("click" function(event) {
             event.preventDefault();
-            alert("Oi eu sou o botão e fui clicado");
+         //   alert("Oi eu sou o botão e fui clicado");
 
     var form = document.querySelector("#form-adiciona");
 
@@ -57,7 +60,7 @@ var pacientes = document.querySelectorAll(".paciente");
     var altura = form,altura.vaule;
     var gordura = form.gordura.value;
 
-    var pacienteTr=document.createElement("tr");
+    var pacienteTr = document.createElement("tr");
 
 
     var nomeTd=document.createElement("td");
@@ -81,6 +84,4 @@ var pacientes = document.querySelectorAll(".paciente");
     tabela.appendChild(pacienteTr);
 
     
-    }
-}
-
+    });
