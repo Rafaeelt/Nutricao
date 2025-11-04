@@ -42,7 +42,7 @@ var pacientes = document.querySelectorAll(".paciente");
 
 
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click" function(event) {
+botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
 
     var form = document.querySelector("#form-adiciona");
