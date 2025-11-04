@@ -39,13 +39,6 @@ var pacientes = document.querySelectorAll(".paciente");
         tdImc.textContent=imc.toFixed(2);
     }
 
-    titulo.addEventListener("click", mostraMensagem);
-
-    function mostraMensagem (){
-        alert("Olá eu fui clicado!!!")
-    }
-
-
 
 
     var botaoAdicionar = document.querySelector("#adicionar-paciente");
